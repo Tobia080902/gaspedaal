@@ -15,7 +15,7 @@ public class ArduinoInput : MonoBehaviour {
     [SerializeField]
     private string _serialPortName = "/dev/cu.usbmodem14111";
     [SerializeField]
-    private int _bautrate = 94000;
+    private int _bautrate = 50000;
 
     private SerialPort stream;
 
